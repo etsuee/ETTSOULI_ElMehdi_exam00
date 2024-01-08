@@ -1,0 +1,23 @@
+﻿using System;
+
+class Program
+{
+    static void Main()
+    {
+        ft_is_negative(-5);
+        ft_is_negative(0);
+        ft_is_negative(10);
+    }
+
+    void ft_is_negative(int n)
+    {
+        if (n < 0)
+        {
+            Console.WriteLine('N');
+        }
+        else
+        {
+            Console.WriteLine('P');
+        }
+    }
+}
